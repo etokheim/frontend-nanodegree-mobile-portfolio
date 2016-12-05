@@ -1,5 +1,5 @@
 # Udacity
-My projects from Udacity's frontend nanodegree course. They are combined to avoid creating 20 separate repositories. Forked repositories are added as nested repositories (submodules).
+This repository is my solution to a project from Udacity's frontend nanodegree course.
 
 ## Download
 When downloading you should append the --recursive command to ```bash $ clone [url] ``` in order to include the required submodule.
