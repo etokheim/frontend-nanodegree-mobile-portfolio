@@ -1,0 +1,3 @@
+[submodule "dist/pizza-perf"]
+	path = dist/views
+	url = https://github.com/etokheim/pizza-perf.git
