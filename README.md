@@ -18,3 +18,17 @@ $ git submodule init
 $ # Updates/downloads all submodules
 $ git submodule update
 ```
+
+## My improvements
+
+### Portfolio
+- Added HTML meta tag for caching
+- Inlined critical CSS resources
+- Delayed loading of non-critical CSS resources
+- Compressed pizzeria.jpg
+- Added media="print" attribute to print.css
+- Moved analytics scripts to separate file in order load it asynchronously
+	..- Added defer attribute in order to delay execution till the page is finished parsing
+
+### Pizzeria
+- Removed FSL (Forced Synchronous Layout) event from changePizzaSizes()
