@@ -28,7 +28,7 @@ $ git submodule update
 - Compressed pizzeria.jpg
 - Added media="print" attribute to print.css
 - Moved analytics scripts to separate file in order load it asynchronously
-	..- Added defer attribute in order to delay execution till the page is finished parsing
+	..* Added defer attribute in order to delay execution till the page is finished parsing
 
 ### Pizzeria
 - Removed FSL (Forced Synchronous Layout) event from changePizzaSizes()
