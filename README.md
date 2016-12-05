@@ -1,5 +1,5 @@
 # Udacity
-This repository is my solution to a project from Udacity's frontend nanodegree course.
+This repository is my solution to a project from Udacity's frontend developer nanodegree program.
 
 ## Download
 When downloading you should append the --recursive command to ```bash $ clone [url] ``` in order to include the required submodule.
