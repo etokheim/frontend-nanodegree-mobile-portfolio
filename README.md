@@ -31,18 +31,19 @@ $ git submodule update
 ## My improvements
 
 ### Portfolio
-* Added HTML meta tag for caching
-* Inlined critical CSS resources
-* Delayed loading of non-critical CSS resources
-* Compressed pizzeria.jpg
-* Added media="print" attribute to print.css
-* Moved analytics scripts to separate file in order load it asynchronously
-	* Added defer attribute in order to delay execution till the page is finished parsing
-* Added will-change: transform attribute to the moving pizzas in order for them to render on a separate layer.
+* Added HTML meta tag for caching.
+* Inlined critical CSS resources.
+* Delayed loading of non-critical CSS resources.
+* Compressed pizzeria.jpg.
+* Added media="print" attribute to print.css.
+* Moved analytics scripts to separate file in order load it asynchronously.
+	* Added defer attribute in order to delay execution till the page is finished parsing.
 
 #### Further improvement suggestions:
-* Use a web worker to move the moving pizzas
-* Use a web worker to resize pizzas when moving the slider
+* Use a web worker to move the moving pizzas.
+* Use a web worker to resize pizzas when moving the slider.
 
 ### Pizzeria
-* Removed FSL (Forced Synchronous Layout) event from changePizzaSizes()
+* Removed FSL (Forced Synchronous Layout) event from changePizzaSizes() and wrapped the visual changes in requestAnimationFrame.
+* Removed FSL in updatePositions() (function for moving pizzas in the background) and wrapped the visual changes in requestAnimationFrame.
+* Added will-change: transform attribute to the moving pizzas in order for them to render on a separate layer.
