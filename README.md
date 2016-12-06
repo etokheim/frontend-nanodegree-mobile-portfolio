@@ -11,7 +11,7 @@ For a live demo you can go to:
 
 
 ## Download
-When downloading you should append the --recursive command to ```bash $ clone [url] ``` in order to include the required submodule.
+When downloading you should append the --recursive command to ```$ clone [url] ``` in order to include the required submodule.
 ```bash
 $ git clone --recursive https://github.com/etokheim/Udacity.git
 ```
@@ -37,12 +37,10 @@ $ git submodule update
 * Compressed pizzeria.jpg
 * Added media="print" attribute to print.css
 * Moved analytics scripts to separate file in order load it asynchronously
-⋅⋅* Added defer attribute in order to delay execution till the page is finished parsing
+	* Added defer attribute in order to delay execution till the page is finished parsing
 * Added will-change: transform attribute to the moving pizzas in order for them to render on a separate layer.
 
-### Further improvements
-Just some suggestions to further improve performance:
-
+#### Further improvement suggestions:
 * Use a web worker to move the moving pizzas
 * Use a web worker to resize pizzas when moving the slider
 
