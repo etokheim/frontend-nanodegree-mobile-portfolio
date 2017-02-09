@@ -2,7 +2,7 @@
 This repository is my solution to a project from Udacity's frontend developer nanodegree program where the goal was to improve the sites performance.
 
 For the blog, which is linked to below, I've improved the loading time considerably. You can see the difference by using Google's page speed test [here](https://developers.google.com/speed/pagespeed/insights/).
-![A picture of my page speed test](https://etokheim.github.io/Udacity/08%20Website%20Optimization/frontend-nanodegree-mobile-portfolio/website optimization.jpg)
+![A picture of my page speed test](https://raw.githubusercontent.com/etokheim/frontend-nanodegree-mobile-portfolio/master/website%20optimization.jpg)
 
 The blog also includes a project called "Cam's Pizzeria" which had huge performance issues. On my computer the old version runs at about 20 fps, while the improved version easily hits 60 fps - even when I slow down my computer with Chrome's developer tools. If you check out the pizzeria page, I urge you to slow down your computer in order get a better idea of how much the page actually improved. To do this in Chrome, go to: developer tools --> timeline --> CPU throttle --> "Low end device (x5 slowdown)".
 
