@@ -6,8 +6,8 @@ For the blog, which is linked to below, I've improved the loading time considera
 The blog also includes a project called "Cam's Pizzeria" which had huge performance issues. On my computer the old version runs at about 20 fps, while the improved version easily hits 60 fps - even when I slow down my computer with Chrome's developer tools. If you check out the pizzeria page, I urge you to slow down your computer in order get a better idea of how much the page actually improved. To do this in Chrome, go to: developer tools --> timeline --> CPU throttle --> "Low end device (x5 slowdown)".
 
 For a live demo you can go to:
- * [Improved version](https://etokheim.github.io/Udacity/08%20Website%20Optimization/07%20Web%20portfolio%20-%20performance%20optimization/frontend-nanodegree-mobile-portfolio/improved/)
- * [Original version](https://etokheim.github.io/Udacity/08%20Website%20Optimization/07%20Web%20portfolio%20-%20performance%20optimization/frontend-nanodegree-mobile-portfolio/original/)
+ * [Improved version](https://etokheim.github.io/Udacity/08%20Website%20Optimization/frontend-nanodegree-mobile-portfolio/improved/)
+ * [Original version](https://etokheim.github.io/Udacity/08%20Website%20Optimization/frontend-nanodegree-mobile-portfolio/original/)
 
 
 ## Download
